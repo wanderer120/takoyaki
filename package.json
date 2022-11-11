@@ -1,17 +1,36 @@
 {
   "name": "admin-fe",
   "version": "0.1.0",
+  "homepage": "https://wanderer120.github.io/takoyaki",
   "private": true,
   "dependencies": {
+    "@devexpress/dx-react-core": "^3.0.6",
+    "@devexpress/dx-react-scheduler": "^3.0.6",
+    "@devexpress/dx-react-scheduler-material-ui": "^3.0.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.12",
+    "@mui/x-date-pickers": "^5.0.7",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "final-form": "^4.20.7",
+    "prop-types": "^15.8.1",
+    "qrcode.react": "^3.1.0",
     "react": "^18.2.0",
+    "react-confirm": "^0.2.3",
     "react-dom": "^18.2.0",
+    "react-final-form": "^6.5.9",
+    "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
+    "reactstrap": "^9.1.5",
+    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +53,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
