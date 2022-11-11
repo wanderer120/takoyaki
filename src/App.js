@@ -69,7 +69,7 @@ function App() {
       <Route path="/employees/new" element={<AddEmployee loadingFunc={setLoading}/>} exact />
       <Route path="/employees/:id/edit" element={<EditEmployee loadingFunc={setLoading}/>} exact />
       </Routes>
-      <div>Version:11.11.2022.1</div>
+      <div>Version:11.11.2022.2</div>
     </HashRouter>
   );
 }
